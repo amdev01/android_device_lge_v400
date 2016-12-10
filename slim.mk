@@ -1,9 +1,9 @@
 $(call inherit-product, device/lge/v400/full_v400.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+# Inherit some common slim stuff.
+$(call inherit-product, vendor/slim/config/common.mk)
 
-PRODUCT_NAME := lineage_v400
+PRODUCT_NAME := slim_v400
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="v400" \
