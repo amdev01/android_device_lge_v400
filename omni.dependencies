@@ -1,0 +1,8 @@
+[
+  {
+	"remote":      "github,
+    "repository":  "MyczkowskiAdam/android_device_lge_v4xx-common",
+    "target_path": "device/lge/v4xx-common"
+	"revision":    "omni7.1"
+  }
+]
