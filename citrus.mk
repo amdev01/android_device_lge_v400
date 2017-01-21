@@ -1,9 +1,12 @@
 $(call inherit-product, device/lge/v400/full_v400.mk)
 
-# Inherit some common omni stuff.
-$(call inherit-product, vendor/omni/config/common_tablet.mk)
+# Inherit some common stuff.
+$(call inherit-product, vendor/citrus/common.mk)
 
-PRODUCT_NAME := omni_v400
+PRODUCT_NAME := citrus_v400
+
+PRODUCT_BUILD_PROP_OVERRIDES += DEVICE_MAINTAINERS="mycax"
+PRODUCT_PROPERTY_OVERRIDES += ro.caf.branch=LA.UM.5.6.r1-02300-89xx.0
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="v400" \

@@ -1,2 +1,3 @@
-add_lunch_combo omni_v400-userdebug
-add_lunch_combo omni_v400-eng
+add_lunch_combo citrus_v400-eng
+add_lunch_combo citrus_v400-user
+add_lunch_combo citrus_v400-userdebug

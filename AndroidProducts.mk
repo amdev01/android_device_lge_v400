@@ -1,2 +1,0 @@
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_v400.mk
