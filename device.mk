@@ -21,7 +21,8 @@ $(call inherit-product-if-exists, vendor/lge/v400/v400-vendor.mk)
 
 # Media
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/media_profiles.xml:system/etc/media_profiles.xml
+    $(LOCAL_PATH)/configs/media_profiles.xml:system/etc/media_profiles.xml \
+    $(LOCAL_PATH)/configs/camera_config.xml:system/etc/camera_config.xml
 
 # Thermal
 PRODUCT_COPY_FILES += \
