@@ -1,7 +1,12 @@
-# Thermal daemon
+# Thermal daemon (+ QMI/diag deps — stock WiFi KDZ; required by thermal-engine + sensors.qcom)
 bin/thermal-engine
 vendor/lib/libthermalclient.so
 vendor/lib/libthermalioctl.so
+vendor/lib/libdiag.so
+vendor/lib/libqmi_cci.so
+vendor/lib/libqmi_common_so.so
+vendor/lib/libqmi_csi.so
+vendor/lib/libqmi_encdec.so
 
 # Venus firmware (per-device — must match stock; v410 blobs are NOT universal)
 etc/firmware/venus.b00
