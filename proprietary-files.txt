@@ -1,5 +1,8 @@
-# Thermal daemon (+ QMI/diag deps — stock WiFi KDZ; required by thermal-engine + sensors.qcom)
+# Thermal daemon (+ QMI/diag deps — stock WiFi KDZ)
+# Phase 0-B: ship libqmi_client_qmux as .phase0b so sensors/thermal cannot
+# complete QMI closure (wifi EDL when live). Blob kept for HITL restore.
 bin/thermal-engine
+bin/sensors.qcom
 vendor/lib/libthermalclient.so
 vendor/lib/libthermalioctl.so
 vendor/lib/libdiag.so
