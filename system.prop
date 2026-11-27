@@ -1,2 +1,6 @@
 # No RIL
 ro.radio.noril=true
+
+# WiFi deadboot Phase0B/3B: qmux ships as .phase0b; do not start sensors that
+# CANNOT LINK (see DEADBOOT-PLAN). Set 0 only after a proven live-qmux fix.
+ro.v4xx.wifi_qmux_gate=1
